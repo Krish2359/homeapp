@@ -1,0 +1,38 @@
+<h1>Simple Calculator</h1>
+
+Enter First Number:
+<input type="text" [(ngModel)]="firstNo" placeholder="First number">
+<br>
+<br>
+Enter Second Number:
+<input type="text" [(ngModel)]="secondNo" placeholder="Second number">
+<br>
+<br>
+
+<button (click)="Add()">Addition</button>
+<br>
+<br>
+Addition = {{result1}}
+<br>
+<br>
+
+<button (click)="Sub()">Substraction</button>
+<br>
+<br>
+Substraction = {{result2}}
+<br>
+<br>
+
+<button (click)="Mul()">Multiplication</button>
+<br>
+<br>
+Multiplication = {{result3}}
+<br>
+<br>
+
+<button (click)="Div()">Division</button>
+<br>
+<br>
+Division = {{result4}}
+<br>
+<br>
